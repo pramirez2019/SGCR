@@ -1,3 +1,6 @@
+SGCR is a Spanish system to manage building, add department owners, taxes, services and maintance. 
+
+
 27/05/2019 Release notes:
 
 - "Home" Form ABM Consorcistas button created
