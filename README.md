@@ -62,5 +62,7 @@ Next changes:
 - Create stored procedure "st_deleteCategRubros" to delete service category
 - "imp_data": DeleteCategoria to delete existing category on database
 - "ABMCategorias" delete button functionality (to delete a category)
- 
+- Modify "c_name" and "c_description" name columns to "c_name_category" and "c_descrip_category" on Categ_rubros database
+- Update code for Add, Search, update and delete buttons fuctionalities with new name columns and check.
+- Create "services" table
  
