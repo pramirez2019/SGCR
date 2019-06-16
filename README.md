@@ -49,5 +49,18 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 - "Categ_rubros" table created on database
 - Stored procedure "st_InsertCategRubro" to insert service category created
 - Stored procedure "st_searchCategRubro" to search service category created
+
+16/06/2019 release notes:
+
+- Stored procedure "st_updateCategRubros" to update service category created
+- "imp_data": UpdateCategoria to update existing category on database
+- "ABMCategorias" Update button functionality implemented(to update a category)
+- "ABMCategorias" textboxes no info functionality implemented (If the textboxes are incomplete, they will change to red. If they textboxes are complete, they will change to blank again)
+
+Next changes:
+
+- Create stored procedure "st_deleteCategRubros" to delete service category
+- "imp_data": DeleteCategoria to delete existing category on database
+- "ABMCategorias" delete button functionality (to delete a category)
  
  
