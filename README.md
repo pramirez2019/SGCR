@@ -56,6 +56,9 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 - "imp_data": UpdateCategoria to update existing category on database
 - "ABMCategorias" Update button functionality implemented(to update a category)
 - "ABMCategorias" textboxes no info functionality implemented (If the textboxes are incomplete, they will change to red. If they textboxes are complete, they will change to blank again)
+- "ABM Consorcistas" search consorcista button functionality implemented(to find a consorcista)
+- "imp_data": GetConsorcista to get Consorcista by name
+- Stored procedure "st_SearchConsorcista" to update service category created
 
 Next changes:
 
@@ -64,5 +67,7 @@ Next changes:
 - "ABMCategorias" delete button functionality (to delete a category)
 - Modify "c_name" and "c_description" name columns to "c_name_category" and "c_descrip_category" on Categ_rubros database
 - Update code for Add, Search, update and delete buttons fuctionalities with new name columns and check.
+- "ABM Consorcistas" update consorcista functionality (to update a consorcista)
+- "ABM Consorcistas" delete consorcista functionality (to delete a consorcista)
 - Create "services" table
  
