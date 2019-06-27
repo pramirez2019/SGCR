@@ -17,9 +17,9 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 29/05/2019 Release notes:
 
 - Login Form added
-- Login textboxes and labels added
-- Login button added
-- login button functionality added
+- "Login" textboxes and labels added
+- "Login" button added
+- "login" button functionality added
 - "GetUser" function created on imp_data class 
 - Users Table created on Database
 - Stored Procedure "st_validateuser" created on database
@@ -28,12 +28,12 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 02/06/2019 Release notes:
 
 - "ABM Consorcio" Clean info button added
-- "ABM Consorcista" Clean info button added
+- "ABM Consorcistas" Clean info button added
 - "reset_controls" class created
 - "reset" function created to clean controls on reset_controls class
 - Clean info functionality created for "ABM Consorcio" and "ABM Consorcista"
 - Tab order modified for "login" form
-
+ 
 07/06/2019 Release notes:
 
 - "login" cs: bool variable created to validate users. If statement changed to validate with bool variable.
@@ -60,13 +60,24 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 - "imp_data": GetConsorcista to get Consorcista by name
 - Stored procedure "st_SearchConsorcista" to update service category created
 
+27/06/2019 release notes:
+
+- Stored procedure "st_deleteCategRubros" to delete service category created
+- "ABMCategorias" delete button functionality (to delete a category)
+- "imp_data": DeleteCategoria to delete existing category on database
+- Modify "c_name" and "c_description" name columns to "c_name_categ" and "c_description_categ" on Categ_rubros database done
+- Store procedure "st_InsertCategRubro" updated with new column names. 
+- Update code for Add category button fuctionality with new name columns and check done
+- "imp_data": AddCategRubro to add a new category updated with new parameters
+- Stored procedure "st_searchCategRubro" updated with new column names. 
+- Stored procedure "st_updateCategRubros" updated with new column names.
+- "imp_data": UpdateCategoria to update existing category on database updated with new parameters
+- 
+
 Next changes:
 
-- Create stored procedure "st_deleteCategRubros" to delete service category
-- "imp_data": DeleteCategoria to delete existing category on database
-- "ABMCategorias" delete button functionality (to delete a category)
-- Modify "c_name" and "c_description" name columns to "c_name_category" and "c_descrip_category" on Categ_rubros database
-- Update code for Add, Search, update and delete buttons fuctionalities with new name columns and check.
+- "imp_data": GetCategoria to find a category by name instead id
+- Stored procedure "st_searchCategRubro" to find a category by name instead id
 - "ABM Consorcistas" update consorcista functionality (to update a consorcista)
 - "ABM Consorcistas" delete consorcista functionality (to delete a consorcista)
 - Create "services" table
