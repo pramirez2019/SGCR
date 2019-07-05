@@ -72,13 +72,20 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 - Stored procedure "st_searchCategRubro" updated with new column names. 
 - Stored procedure "st_updateCategRubros" updated with new column names.
 - "imp_data": UpdateCategoria to update existing category on database updated with new parameters
-- 
+
+05/07/2019 release notes:
+
+- "ABM Consorcistas" update button functionality (to update a consorcista)
+- "imp_data": UpdateConsorcista to update existing Consorcista on database
+- Stored procedure "st_updateConsorcista" to update Consorcista created
+- "ABM Consorcistas" delete button functionality (to update a consorcista)
+- Stored procedure "st_deleteConsorcista" to delete Consorcista created
+- "imp_data": DeleteConsorcista to delete existing Consorcista on database
+
 
 Next changes:
 
-- "imp_data": GetCategoria to find a category by name instead id
-- Stored procedure "st_searchCategRubro" to find a category by name instead id
-- "ABM Consorcistas" update consorcista functionality (to update a consorcista)
-- "ABM Consorcistas" delete consorcista functionality (to delete a consorcista)
 - Create "services" table
+- Link services with categories
+- Start calculations
  
