@@ -82,9 +82,39 @@ SGCR is a Spanish system to manage building, add department owners, taxes, servi
 - Stored procedure "st_deleteConsorcista" to delete Consorcista created
 - "imp_data": DeleteConsorcista to delete existing Consorcista on database
 
+03/08/2019 release notes:
+
+- Create "ABM Servicios" button on home form
+- Create "ABMServicios" form
+- Disable ControlBox on "ABMServicios" form
+- Change text "ABM Servicios" on "ABMServicios" form
+- Add panel with: Properties->Appearance->back color: highlight and layout->dock->left on "ABMServicios" form
+- Add panel with: name "panel_servicios" and layout->dock->fill on "ABMServicios" form
+- "BACK", "SEARCH CATEGORÍA", "SEARCH SERVICIO", "CLEAN INFO" "ADD SERVICIO", "UPDATE SERVICIO", "DELETE SERVICIO" buttons on "ABMServicios" form added
+- Add labels and textbox on "ABMServicios" form
+- Modify "Categ_rubros" table with: "c_id" column as identity, "c_id_categ" column as primary key, and "c_description_categ varchar" column size from 50 to 100
+- "ABMServicios" back button fuctionality implemented
+- "ABMServicios" SEARCH CATEGORÍA button fuctionality implemented
+- "ABMServicios" ADD SERVICIO button fuctionality implemented
+- "ABMServicios" SEARCH SERVICIO button fuctionality implemented
+- "ABMServicios" "CLEAN INFO" button fuctionality implemented
+- "ABMServicios" "UPDATE SERVICIO" button fuctionality implemented
+- "ABMServicios" "DELETE SERVICIO" button fuctionality implemented
+- "Servicios" table created on database
+- Stored procedure "st_insertServicio" to insert Servicio created
+- Stored procedure "st_SearchServicio" to search Servicio created
+- Stored procedure "st_updateServicio" to update Servicio created
+- Stored procedure "st_deleteServicio" to delete Servicio created
+- "imp_data": AddServicio to add servicio on database
+- "imp_data": GetServicio to get servicio by name
+- "imp_data": UpdateServicio to update existing Servicio on database
+- "imp_data": DeleteServicio to delete existing Servicio on database
 
 Next changes:
 
+- Datagridview for servicios
+- Update store procedure "st_InsertCategRubro" for "c_description_categ" column
+- update store procedure "st_updateCategRubros" for "c_description_categ" column
 - Create "services" table
 - Link services with categories
 - Start calculations
